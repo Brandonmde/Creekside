@@ -1,0 +1,274 @@
+*{
+ box-sizing: border-box;
+}
+body{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10px;
+    background-color: #e9ecef;
+    color: #000814;
+    background-size: cover;
+    margin: 0;
+}
+#facebook{
+    position: absolute;
+    top: 40vh;
+    right: 47vw;
+}
+#instagram{
+    position: absolute; 
+    top: 40vh;
+    left: 47vw;
+}
+header{
+    margin-bottom: 7vh;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/daves-landscaping.jpg);
+    background-size: cover; 
+}
+#logo{
+    width: 40vw;
+    height: 20vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 0 0 20px 0;
+
+}
+#navbar{
+    position: fixed;
+    top: -9vh;
+    right: 0;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+#navbar:hover{
+    top: 0px;
+}
+.navlink{
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: #f2e8cf;
+    padding: 1rem;
+    text-shadow: 1px 1px 5px #081c15;
+    border: 2px double #f2e8cf;
+    background-color:#2d6a4f;
+}
+.navlink:hover{
+    color:black;
+}
+#navlink-first{
+    border-radius: 0 0 0 25%;
+}
+#navlink-last{
+    border-radius: 0 0 25% 0;
+}
+#navlink-arrow{
+    border-radius: 0 0 25% 25%;
+    padding: .5rem;
+
+}
+#slogan{
+    font-size: 1.6rem;
+    margin-top: 15vh;
+    color: black;
+
+}
+#about{
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 1.6rem;
+    padding: 0 5vw;
+    color: black;
+    
+}
+#about-border{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-top: 2px solid #e9ecef;
+    border-bottom: 2px solid #e9ecef;
+    padding: 5px;
+    border-radius: 20%;
+    margin-bottom: 15vh;
+
+}
+#landscaping-section-img{
+    position: relative;
+    left: 40vw;
+    bottom: 40vh;
+    z-index: -1;
+    margin-bottom: 10vh;
+}
+#landscaping-header{
+    background-color: #7f5539;
+    font-size: 2rem;
+    color: #deab90;
+    padding: 1vh 0 5vh 2vw;
+    border-right: 3px solid #432818;
+}
+#landscaping-desc{
+    background: linear-gradient(
+        150deg,
+        #7f5539 81%,
+        #432818
+        
+    );
+    text-align: left;
+    color: #deab90;
+    border-right: 3px solid #432818;
+    border-bottom: 8px solid #583101;
+    padding-left: 2vw;
+}
+#landscape-bookend{
+    background-image: url(images/mulch.jpg);
+}
+#landscaping-section{
+    display:flex;
+    margin-left: 1vw;
+    margin-top: 20vh;
+}
+#hardscaping-header{
+    background-color: #b1a7a6;
+    font-size: 2rem;
+    color: black;
+    padding: 1vh 2vw 5vh 0;
+}
+#hardscaping-desc{
+    background: linear-gradient(
+        220deg,
+        #b1a7a6 81%,
+        #495057 
+    );
+    color: black;
+    text-align: right;
+    padding-bottom: 5vh;
+    padding-right: 2vw;
+    border-bottom: 8px solid #343a40;
+}
+#hardscaping-section-img{
+    position: relative;
+    right: 40vw;
+    top: 10vh;
+    z-index: -1;
+}
+#hardscaping-section{
+    display:flex;
+    margin-right: 1vw;
+    margin-left: auto;
+    position: relative;
+    bottom: 20vh;
+    border-left: 3px solid #495057;
+}
+#hardscape-bookend{
+    background-image: url(images/pavers.jpg);
+}
+#lawncare-section-img{
+    position: relative;
+    left: 40vw;
+    bottom: 40vh;
+    z-index: -1;
+    margin-bottom: 10vh;
+    margin-top: -5vh;
+}
+#lawncare-header{
+    background-color: #006400;
+    font-size: 2rem;
+    color: #f2e8cf;
+    padding: 1vh 0 5vh 2vw;
+    color: #f2e8cf;
+    border-right: 3px solid #004b23;
+}
+#lawncare-desc{
+    background: linear-gradient(
+        150deg,
+        #006400 81%,
+        #004b23
+        
+    );
+    text-align: left;
+    color: #f2e8cf;
+    border-right: 3px solid #004b23;
+    border-bottom: 8px solid #80b918;
+    padding-left: 2vw;
+}
+#lawncare-bookend{
+    background-image: url(images/grass.jpg);
+}
+#lawncare-section{
+    display:flex;
+    margin-left: 1vw;
+    margin-top: -5vh;
+}
+#outdoor-structures-header{
+    background-color: #d4a276;
+    font-size: 2rem;
+    color: #432818;
+    padding: 1vh 2vw 5vh 0;
+}
+#outdoor-structures-desc{
+    background: linear-gradient(
+        220deg,
+        #d4a276 81%,
+        #7f5539 
+    );
+    color: #432818;
+    text-align: right;
+    padding-bottom: 5vh;
+    padding-right: 2vw;
+    border-bottom: 8px solid #7f5539;
+}
+#outdoor-structures-section-img{
+    position: relative;
+    right: 40vw;
+    top: 10vh;
+    z-index: -1;
+}
+#outdoor-structures-section{
+    display:flex;
+    margin-right: 1vw;
+    margin-left: auto;
+    position: relative;
+    bottom: 20vh;
+    border-left: 3px solid #d4a276;
+}
+#outdoor-structures-bookend{
+    background-image: url(images/fence-bookend.jpg);
+}
+.text-block{
+    display: block;
+}
+.header-img{
+    width: 25vw;
+    margin: 10px;
+}
+.section-img{
+    width: 720px;
+    height: 540px;
+
+}
+.section-header, .section-text{
+    margin: auto;
+    width: 50vw;
+    z-index: 1;
+}
+.section-text{
+    font-size: 1.2rem;
+    line-height: 2rem;
+    padding: 0vh .5vw 5vh .5vw;
+}
+.bookend{
+    width: 5vw;
+}
+.socials{
+    font-size: 3rem;
+    color: #e9ecef;
+    display: flex;
+    font-style: none;
+    text-decoration: none;
+}
